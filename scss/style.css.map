@@ -1,0 +1,17 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "style.scss",
+        "basic/_reset.scss",
+        "basic/_fonts.scss",
+        "modules/_variables.scss",
+        "modules/_classes.scss",
+        "modules/_mixins.scss",
+        "main/_keyframe.scss",
+        "main/_page1.scss",
+        "main/_media.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
