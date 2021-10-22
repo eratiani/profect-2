@@ -1,0 +1,17 @@
+%container {
+  height: 80%;
+  width: 100%;
+  border-radius: 12px;
+  color: white;
+}
+%flex-end {
+  display: flex;
+  align-items: flex-end;
+}
+%flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 0 35px;
+  margin-top: 15px;
+}

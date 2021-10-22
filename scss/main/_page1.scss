@@ -1,0 +1,115 @@
+.main-wrapper {
+  background-color: $color-8;
+  width: 375px;
+  padding-top: 10%;
+  .wrapper-2 {
+    width: 80%;
+    height: 130px;
+    background-color: $color-9;
+    margin: 0 auto;
+    border-radius: 12px;
+    .image-wrapper {
+      height: 80%;
+      background-color: $color-1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 12px;
+      .image-1 {
+        width: 50px;
+        margin-right: 20px;
+        border: white 1px solid;
+        border-radius: 100%;
+        object-fit: fill;
+        .jeremy {
+          width: 100%;
+        }
+      }
+    }
+    .day-wrapper {
+      display: flex;
+      justify-content: space-evenly;
+      :active {
+        color: white;
+      }
+    }
+  }
+  .wrapper-1 {
+    width: 80%;
+    height: 130px;
+    background-color: $color-9;
+    margin: 5px auto;
+    border-radius: 12px;
+  }
+  .wrapper-3 {
+    background-color: $color-2;
+    @extend %flex-end;
+    .work-1 {
+      @extend %container;
+      background-color: $color-1;
+
+      .work {
+        @extend %flex-container;
+      }
+    }
+  }
+  .wrapper-4 {
+    background-color: $color-3;
+    @extend %flex-end;
+    .play-1 {
+      @extend %container;
+      background-color: $color-1;
+      .play {
+        @extend %flex-container;
+      }
+    }
+  }
+
+  .wrapper-5 {
+    background-color: $color-4;
+    @extend %flex-end;
+    .study-1 {
+      @extend %container;
+      background-color: $color-1;
+      .study {
+        @extend %flex-container;
+      }
+    }
+  }
+
+  .wrapper-6 {
+    background-color: $color-5;
+    @extend %flex-end;
+    .exercise-1 {
+      @extend %container;
+      background-color: $color-1;
+      .exercise {
+        @extend %flex-container;
+      }
+    }
+  }
+
+  .wrapper-7 {
+    background-color: $color-6;
+    @extend %flex-end;
+    .social-1 {
+      @extend %container;
+      background-color: $color-1;
+      .social {
+        @extend %flex-container;
+      }
+    }
+  }
+
+  .wrapper-8 {
+    background-color: $color-7;
+    @extend %flex-end;
+    .selfcare-1 {
+      @extend %container;
+      background-color: $color-1;
+      .selfcare {
+        @extend %flex-container;
+      }
+    }
+  }
+}
